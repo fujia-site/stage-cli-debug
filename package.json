@@ -20,6 +20,9 @@
     "*.{css,scss,sass,html,vue}": "stylelint",
     "*.**": "prettier --check --ignore-unknown"
   },
+  "resolutions": {
+    "deasync": "0.1.16"
+  },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/axios": "^5.13.6",
