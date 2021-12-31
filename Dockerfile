@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM node:14-slim
+FROM node:14-alpine
 
 LABEL maintainer="fujia <fujia.site@foxmail.com>"
 
